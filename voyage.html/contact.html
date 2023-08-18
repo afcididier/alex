@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../voyage.css/contact.css">
+    <title>Imaginary Journey</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#index.html"> <img src="../img/z colibri 1.png" alt="Accueil"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Accueil
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="membres.html">Membres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="prestations.html">Prestations</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="contact.html">Contact</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+<section>
+  <h1 style="text-align: center;">Contacter Nous !!</h1>
+  <form action="">
+        <label for="nom"></label>
+        <input type="text" id="nom" placeholder="Nom">
+        <label for="prenom"></label>
+        <input type="text" id="prenom"  placeholder="Prenom">
+        <label for="email"></label>
+        <input type="email" id="email" placeholder="@mail">
+        <label for="tel"></label>
+        <input type="text" id="tel" placeholder="Votre numéro">
+        <label for="ville"></label>
+        <input type="text"id="ville" placeholder="Votre ville">
+        <label for="cp"></label>
+        <input type="text"id="cp" placeholder="Votre code postal">
+        <label for="msg"></label>
+        <textarea id="msg" placeholder="Votre message"></textarea>
+        <div class="flex">
+        <button onclick="envoie();">Envoyez</button>
+        <input type="reset" value="Effacer" name="effacer">
+        </div>
+      </form>   
+</section>
+<div class="footer">
+        <h4>Condition Générale</h4>
+          <a href="../voyage.html/cgu.html">CGU</a>
+          <a href="../voyage.html/cgv.html">CGV</a>
+        </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+            <script src="../voyage.js/contact.js"></script>
+</body>
+</html>

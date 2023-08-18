@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+       height: 100vh;
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+       grid-template-rows: 1fr 5fr 3fr 2fr 2fr 4fr 1fr ;
+       grid-template-areas:
+       "titre titre titre titre" 
+       "img1 img1 img1 img1"
+       "img1 img1 img1 img1"
+       "article1 article1 article1 article1"
+       "localisation localisation localisation localisation  "
+       " img2 img2 img2 img2"
+       "footer footer footer footer"; 
+
+    }
+}
+h2{
+    text-decoration: underline;
+}
+p{
+    position: relative;
+}
+.titre{
+    grid-area: titre;
+    /* border: 1px solid black; */
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(255, 191, 0);
+    height: 100px;
+}
+.localisation{
+    background-color: rgb(255, 191, 0);
+}
+.img1{
+    grid-area: img1;
+    /* border: 1px solid black; */
+    background: url(../img/z\ plage\ 1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.article1{
+    grid-area: article1;
+    /* border: 1px solid black; */
+    text-align: center;
+    border-radius: 10px;
+}
+.img2{
+    grid-area: img2;
+    /* border: 1px solid black; */
+    background: url(../img/google\ 2.png);
+    background-size: cover;
+    /* background-position: center;
+    background-repeat: space; */
+    border-radius: 10px;
+}
+.localisation{
+    grid-area: localisation;
+    /* border: 1px solid black; */
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer{
+    grid-area: footer;
+    /* border: 1px solid black; */
+    height: 75px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(255, 191, 0);
+}
+.no-gutter{
+    padding: 0 !important;
+} 

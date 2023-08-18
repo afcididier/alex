@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/fond.jpg);
+    background-size: cover;
+}
+.titre{
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(255, 191, 0);
+    border-radius: 10px;
+}
+img{
+    border-radius: 20px;
+}
+img:hover{
+    box-shadow: rgb(255, 191, 0) 0px 19px 38px, rgb(255, 191, 0) 0px 15px 12px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.box2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.box5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 191, 0);
+    border-radius: 10px;
+}
+h4{
+    text-align: center;
+}
+a{
+    text-align: center;
+}
+/* @media screen and (min-width: 1024px) {
+    .container {
+       height: 100vh;
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+       grid-template-rows: repeat(4,1fr);
+       grid-template-areas:
+       "img1 img1 article1 article1"
+       "img2 article2 img3 article3"
+       "img4 article4 img5 article5"
+       "footer footer footer footer"; 
+    }
+}
+h1{
+    text-decoration: underline;
+}
+#d1{
+    background-color: rgb(255, 191, 0);
+    border-radius: 10px;
+}
+.titre{
+    text-align: center;
+}
+.img1{
+    grid-area: img1;
+    border: 1px solid black;
+    background: url(../img/z-homme-4.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.article1{
+    grid-area: article1;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+.img2{
+    grid-area: img2;
+    border: 1px solid black;
+    background: url(../img/z\ femme\ 2.jpg);
+    border-radius: 10px;
+}
+.article2{
+    grid-area: article2;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+.img3{
+    grid-area: img3;
+    border: 1px solid black;
+    background: url(../img/z\ homme\ 2.jpg);
+    border-radius: 10px;
+}
+.article3{
+    grid-area: article3;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+.img4{
+    grid-area: img4;
+    border: 1px solid black;
+    background: url(../img/z\ femme\ 3.jpg);
+    border-radius: 10px;
+}
+.article4{
+    grid-area: article4;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+.igm5{
+    grid-area: img5;
+    border: 1px solid black;
+    background: url(../img/z\ homme\ 3.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.article5{
+    grid-area: article5;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+.footer{
+    grid-area: footer;
+    border: 1px solid black;
+    height: 75px;
+    text-align: center;
+    background-color: rgb(255, 191, 0);
+} */
